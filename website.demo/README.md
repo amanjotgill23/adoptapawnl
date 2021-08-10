@@ -12,4 +12,6 @@ Changelog for this project:
 
 4. Added header and footer to all website pages.
 
-5. Added form to Contact Us page with labels and inputs for Name, Email, Phone number, Subject, Message. Also added a Submit button (currently without functionality). Added styling to the form and its elements.
+5. Added form to Contact Us page with labels and inputs for Name, Email, Phone number, Subject, Message. Also added a Submit button (currently without functionality). Added some styling to the form and its elements.
+
+6. Updated the Adoption Info page with a table containing links to 3 Newfoundland shelters. Some styling added to the table and rows. Will be adding basic information regarding each shelter and more styling in the next commit.
