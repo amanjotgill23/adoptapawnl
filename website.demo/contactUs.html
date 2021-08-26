@@ -18,24 +18,38 @@
             <a href="contactUs.html">Contact Us</a> 
         </nav>
     </header>
+    <script>
+        function myFunction(){
+            var fullName = document.getElementById("fName").value;
+            var emailAddress = document.getElementById("emailAdd").value;
+            var message = document.getElementById("message").value;
+            if (fullName != "") {
+                if (emailAddress != "") {
+                    if (message != "") {
+                        alert("Thank you " + fullName + ". We'll get back to you soon!");
+                    }
+                }
+            }
+        }
+    </script>
     <main>
         <div class="container">
             <div class="heading">
                 Contact Us
             </div>
             <div class="contactForm">
-               <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="Enter your email">
+               <form name="form1">
+                    <label for="name">Name*</label>
+                    <input type="text" id="fName" name="name" placeholder="Enter your name" required>
+                    <label for="email">Email*</label>
+                    <input type="text" id="emailAdd" name="email" placeholder="Enter your email" required>
                     <label for="phone">Phone number</label>
-                    <input type="text" id="phone" name="email" placeholder="Enter your phone number">
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" placeholder="Type the subject">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Type your message here..." style="height:170px"></textarea>
-                    <input type="submit" value="Submit">
+                    <input type="text" id="phoneNum" name="email" placeholder="Enter your phone number">
+                    <label for="subjt">Subject</label>
+                    <input type="text" id="subject" name="subjt" placeholder="Type the subject">
+                    <label for="mesge">Message*</label>
+                    <textarea id="message" name="mesge" placeholder="Type your message here..." style="height:150px" required></textarea>
+                    <button onclick="myFunction()">Submit</button>
                 </form>
             </div>
         </div>
