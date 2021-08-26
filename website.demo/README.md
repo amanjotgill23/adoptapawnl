@@ -4,7 +4,7 @@ This is my first time designing a complete website myself from start to finish. 
 
 Changelog for this project:
 
-1. Added basic index.html page containing a link to the website logo and a few navigation menu items without any styling. Created empty html files for other pages on website. Added empty css file and website logo to project folder.
+1. Added basic index.html page containing a website logo and a few navigation menu items without any styling. Created empty html files for other pages on website. Added empty css file and website logo to project folder.
 
 2. Added classes to html code to make styling easier. Upgraded the navigation bar to align the logo and menu items side by side.  Updated the logo color and made it's background transparent. Changed the navigation link text color, font and weight. Added opacity on links when hovered over. Changed the background color for the site. Added an image to the main element within the body and styled it to fit the width of the screen.
 
@@ -12,6 +12,8 @@ Changelog for this project:
 
 4. Added header and footer to all website pages.
 
-5. Added form to Contact Us page with labels and inputs for Name, Email, Phone number, Subject, Message. Also added a Submit button (currently without functionality). Added some styling to the form and its elements.
+5. Added form to Contact Us page with labels and inputs for Name, Email, Phone number, Subject, Message. Also added a Submit button. Added some styling to the form and its elements.
 
-6. Updated the Adoption Info page with a table containing links to 3 Newfoundland shelters. Some styling added to the table and rows. Will be adding basic information regarding each shelter and more styling in the next commit.
+6. Added basic information and website links for 3 Newfoundland shelters to the Adoption Info page. Styling added to the table and rows.
+
+7. Added javascript code for "Submit" button on Contact Us page to show an alert containing the user's name once all required information is entered in the form. Checks in place in html and javascript code for null values in required fields. 
