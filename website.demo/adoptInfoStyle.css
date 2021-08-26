@@ -60,14 +60,17 @@ main {
 }
 
 .table {
-    box-sizing: border-box;
     padding-left: 200px;
+    height: 500px;
   }
 
 .column {
     float: left;
-    width: 30%;
-    height: 300px; 
+    width: 20%;
+    height: 100%;
+    padding-right: 100px;
+    border-top: red;
+    /* border-style: solid; */
   }
 
 .column > a {
