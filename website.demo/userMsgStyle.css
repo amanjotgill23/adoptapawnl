@@ -42,48 +42,6 @@ main {
     margin-top: 140px;
 }
 
-.mainHeading {
-    text-align: center;
-    color: #792f6c;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 20px;
-}
-
-.smallHeading {
-    text-align: center;
-    color: #792f6c;
-    font-size: 20px;
-    font-weight: lighter;
-    font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 20px;
-}
-
-.table {
-    padding-left: 200px;
-    height: 500px;
-  }
-
-.column {
-    float: left;
-    width: 20%;
-    height: 100%;
-    padding-right: 100px;
-    border-top: red;
-    /* border-style: solid; */
-  }
-
-.column > a {
-    text-decoration: none;
-    color: #802e49;
-  }
-  
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
 footer {
     background-color: #792f6c;
     height: 40px;
