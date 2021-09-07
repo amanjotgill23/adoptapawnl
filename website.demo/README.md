@@ -17,3 +17,9 @@ Changelog for this project:
 6. Added basic information and website links for 3 Newfoundland shelters to the Adoption Info page. Styling added to the table and rows.
 
 7. Added javascript code for "Submit" button on Contact Us page to show an alert containing the user's name once all required information is entered in the form. Checks in place in html and javascript code for null values in required fields. 
+
+8. Merged the Adoption Info and Adopt pages into one page containing a table with information for 3 Newfoundland shelters. Added more complex styling to the table and some JavaScript to the page.
+
+9. Updated the styling for the Contact Us page, including color, border and font changes.
+
+10. Added information to the Donate page, including links to the donation pages for the 3 shelters. Also added styling and a JavaScript file for the whole page.
