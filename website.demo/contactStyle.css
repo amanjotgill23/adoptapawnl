@@ -1,6 +1,6 @@
 body {
     background-color: #faf6f2; /* apply background color to entire page */
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -42,24 +42,27 @@ main {
     margin-top: 140px;
 }
 
-/* Add a background color and some padding around the form */
-.container {
-    padding: 20px 120px 20px 120px;
-    
-}
-
 .heading {
     text-align: center;
     color: #792f6c;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .contactForm {
-
+    padding: 20px 20px 20px 20px;
 }
 
-/* Style inputs with type="text", select elements and textareas */
+.form1 {
+    padding: 25px;
+    background-color:lavender;
+    box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.459);
+}
+
+.form1>label {
+    font-weight: bold;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -73,12 +76,13 @@ input[type=text], select, textarea {
 
 button {
     width: 100%;
-    background-color: #04AA6D;
-    color: white;
+    background-color: rgb(144, 209, 144);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
   }
 
 button:hover {
