@@ -113,3 +113,38 @@ footer {
     font-size: 15px;
     color: #faf6f2;
 }
+
+@media screen and (max-width: 500px) {
+
+    body {
+        font-size: 15px;
+    }
+    
+    .topNav {
+        width: 100%; 
+        height: 70px;
+    }
+
+    .logo {
+        display: inline-block; 
+        vertical-align: top;
+        width: 70px;
+        margin-right: 50px;
+        padding-left: 20px;
+    }
+
+    .topNav > a {
+        display: inline-block;
+        padding-left: 12px;
+        padding-right: 13px;
+        line-height: 70px;
+        text-decoration: none; 
+        font-size: 15px;
+        color: #792f6c;
+        font-weight: bold;
+    }
+
+    main {
+        margin-top: 80px;
+    }
+}
