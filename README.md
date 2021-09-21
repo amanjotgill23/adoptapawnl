@@ -23,3 +23,7 @@ Changelog for this project:
 9. Updated the styling for the Contact Us page, including color, border and font changes.
 
 10. Added information to the Donate page, including links to the donation pages for the 3 shelters. Also added styling and a JavaScript file for the whole page.
+
+11. Added meta og image tag to index.html for social media previews.
+
+12. Made website mobile friendly using media queries on all css files. More testing and changes to follow.
