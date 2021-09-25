@@ -96,13 +96,13 @@ footer {
     .logo {
         width: 70px;
         margin-right: 10px;
-        padding-left: 20px;
+        padding-left: 10px;
         padding-top: 5px;
     }
 
     .topNav > a {
-        padding-left: 6px;
-        padding-right: 6px;
+        padding-left: 5px;
+        padding-right: 5px;
         line-height: 80px;
         font-size: 15px;
     }
