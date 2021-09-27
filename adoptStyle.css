@@ -141,4 +141,12 @@ footer {
     main {
         margin-top: 80px;
     }
+
+    .table {
+        padding: 10px 10px 10px 10px;
+      }
+    
+    .shelters {
+        padding: 10px;
+    }
 }
