@@ -63,6 +63,10 @@ main {
     font-weight: bold;
 }
 
+.form1:hover {
+    box-shadow: 4px 8px 10px 4px black;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
