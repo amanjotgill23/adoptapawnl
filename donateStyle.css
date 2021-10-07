@@ -68,6 +68,10 @@ main {
     box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.459);
 }
 
+.details:hover {
+    box-shadow: 4px 8px 10px 4px black;
+}
+
 .shelters {
     padding-left: 33%;
     padding-top: 25px;
@@ -87,6 +91,7 @@ main {
 .col:hover {
     text-decoration: underline;
     cursor: pointer;
+    box-shadow: 2px 4px 6px 4px rgb(140, 184, 140);
 }
 
 
