@@ -69,6 +69,10 @@ main {
     box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.459);
 }
 
+.shelters:hover {
+    box-shadow: 4px 8px 10px 4px black;
+}
+
 .col {
     width: 30%;
     text-align: center;
