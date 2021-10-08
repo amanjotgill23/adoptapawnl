@@ -133,4 +133,8 @@ footer {
     main {
         margin-top: 80px;
     }
+
+    .form1:hover {
+        box-shadow: 2px 4px 6px 2px black;
+    }
 }
