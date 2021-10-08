@@ -153,4 +153,8 @@ footer {
     .shelters {
         padding: 10px;
     }
+
+    .shelters:hover {
+        box-shadow: 2px 4px 6px 2px black;
+    }
 }
