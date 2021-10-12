@@ -26,4 +26,6 @@ Changelog for this project:
 
 11. Added meta og image tag to index.html for social media previews.
 
-12. Made website mobile friendly using media queries on all css files. More testing and changes to follow.
+12. Added Media Queries to all CSS files for screen sizes of less than 500px.
+
+13. Made containers in Adopt, Donate and Contact Us pages more interactive by adding box shadows on mouse hover.
