@@ -29,3 +29,5 @@ Changelog for this project:
 12. Added Media Queries to all CSS files for screen sizes of less than 500px.
 
 13. Made containers in Adopt, Donate and Contact Us pages more interactive by adding box shadows on mouse hover.
+
+14. Added small animations to Adopt and Contact Us page headings. Learning to incorporate more animations.
